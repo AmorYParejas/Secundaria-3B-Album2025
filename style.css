@@ -87,6 +87,34 @@ hr{
   padding-top: 50px;
 }
 
+header{
+  width: 100%;
+  display: flex;
+  padding: 10px 8px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #888;
+}
+
+.logo{
+  width: 100px;
+}
+
+.group, .phrase{
+  display: block;
+}
+
+.group{
+  font-size: 12px;
+}
+
+.phrase{
+  width: 150px;
+  text-align: right;
+  font-size: 10px;
+  font-weight: bold;
+}
+
 /*estilos de la secciones*/
 /*Sección 1 - foto grupal*/
 .grupal-photo-img{
@@ -107,7 +135,8 @@ hr{
   scrollbar-width: none;
   -ms-overflow-style: none;  /* Firefox */
   overflow: -moz-scrollbars-none;
-  padding: 10px 5px;
+  padding: 30px 5px;
+  padding-bottom: 80px;
   margin-top: 20px;
 }
     
@@ -139,6 +168,9 @@ hr{
   object-fit: cover;
 }
 
+.name{
+  margin-top: 6px;
+}
 
     /* Modal */
 .modal {
