@@ -170,11 +170,16 @@ header{
 
 .tutor-container div{
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 20px;
   background-color: #232323;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   padding: 25px 15px;
+}
+
+.tutor-container p{
+  text-align: justify;
 }
 
 .teacher-container{
@@ -188,7 +193,7 @@ header{
    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
    padding: 20px 10px;
    border-radius: 5px;
-   text-align: left;
+   text-align: justify;
 }
 
 .nickname{
